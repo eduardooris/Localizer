@@ -5,7 +5,7 @@ import { navigation } from "../../routes";
 export default function SplashScreen() {
   const { navigate } = navigation();
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor:"#FFF" }}>
       <LottieView
         source={require("../../animations/splash.json")}
         style={{ width: "100%", height: "100%" }}
